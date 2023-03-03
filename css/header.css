@@ -1,0 +1,59 @@
+:root {
+  --cor-c: #ffffff;
+  --cor-0: #2c70ff;
+  --cor-1: #122ab2;
+}
+
+/* Supreinfo */
+.superinfo-bg {
+  background: var(--cor-1);
+  color: var(--cor-c);
+}
+.superinfo {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.superinfo p, .superinfo a {
+  margin: 0 10px 10px 10px;
+}
+.superinfo a {
+  color: var(--cor-c);
+}
+
+/* Menu */
+.menu-bg {
+  background: var(--cor-0);
+}
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu a {
+  color: var(--cor-c);
+}
+.menu-logo a {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.menu-nav ul {
+ display: flex;
+ flex-wrap: wrap;
+}
+.menu-nav a {
+  font-size: 1.25rem;
+  display: block;
+  padding: 10px;
+}
+.menu-nav a:hover {
+  color: var(--cor-1);
+}
